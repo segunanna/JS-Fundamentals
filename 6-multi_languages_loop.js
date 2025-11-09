@@ -1,9 +1,6 @@
-#!/usr/bin/node
-const arg = process.argv[2];
-const num = parseInt(arg);
+const languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-if (isNaN(num)) {
-  console.log('Not a number');
-} else {
-  console.log(`My number: ${num}`);
+for (let i = 0; i < languages.length; i++) {
+  console.log(languages[i]);
 }
+
